@@ -1,0 +1,262 @@
+
+@font-face {
+    font-family: "SF Pro Rounded";
+    src: url("/fonts/SF-Pro-Rounded-Regular.ttf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF Pro Rounded";
+    src: url("/fonts/SF-Pro-Rounded-Medium.ttf") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "SF Pro Rounded";
+    src: url("/fonts/SF-Pro-Rounded-Bold.ttf") format("opentype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "SF Pro Rounded";
+    src: url("/fonts/SF-Pro-Rounded-Heavy.ttf") format("opentype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "SF Pro Rounded";
+    src: url("/fonts/SF-Pro-Rounded-Black.ttf") format("opentype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("/fonts/SF-Pro-Display-Light.ttf") format("opentype");
+    font-weight: 300;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23.2px;
+    color: black;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "SF Pro Rounded", sans-serif;
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: "SF Pro Rounded", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "SF Pro Rounded", sans-serif;
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.p {
+    margin: 0px 0px 10px 0px;
+    width: 670px;
+}
+
+.p--lead {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0px 29px 16px 0px;
+}
+
+.p--last {
+    margin: 0px;
+}
+
+.menu {
+    padding: 0px 49px 0px 49px;
+    width: 1000px;
+    height: 45px;
+    margin: 17px 0px 13px 0px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+}
+
+.menu_logo {
+    margin: 0px 28px 0px 0px;
+    width: 140px;
+    height: 36px;
+}
+
+.menu_elements {
+    font-family: "SF Pro Rounded", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 118px 8px 0px;
+}
+
+.menu_element {
+   margin: 0px 12px 0px 0px;
+}
+
+.menu_element--last {
+    margin: 0px;
+    font-family: "SF Pro Rounded", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu-element--inactive {
+    color: black;
+}
+
+.menu_element--active {
+    color: #FF5B5B;
+    border-bottom: 1px solid #FF5B5B;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+
+a:hover {
+    color: #FF5B5B;
+    transition: 100ms;
+}
+
+.a--nohover:hover {
+    color: black;
+}
+
+.menu_basket {
+    margin: 0px 0px 6px 0px;
+}
+
+.menu_price {
+    font-family: "SF Pro Rounded", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.menu_bag {
+    margin: 0px 2px 0px 0px;
+}
+
+.top-img {
+    width: 1000px;
+}
+
+.main-ill {
+    margin: 0px 0px 56px 0px;
+}
+
+.header {
+    margin: 0px 0px 35px 49px;
+}
+
+.text-block-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 49px 70px 49px;
+}
+
+.lead {
+    margin: 0px 24px 0px 0px;
+}
+
+.text-block-1_img {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.caption {
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 300;
+}
+
+.img+caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-block-2_img {
+    width: 268px;
+}
+
+.caption-2 {
+    margin: -12px 0px 0px 49px;
+}
+
+.text-block-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 49px 84px 0px;
+}
+
+.text {
+    margin: 0px 0px 0px 14px;
+    width: 670px;
+}
+
+.footer {
+    margin: 0px 49px 60px 49px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ul-1 {
+    margin: 19px 0px 0px 0px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-family: 'SF Pro Rounded', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.li--last {
+    margin-bottom: 0px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-2 {
+    margin: 0px 40px 0px 0px;
+}
