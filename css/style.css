@@ -40,7 +40,7 @@
 }
 
 body {
-    font-family: "SF Pro Display", sans-serif;
+    font-family: "SF Pro Display", "Roboto", "Arial", sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 23.2px;
@@ -51,7 +51,8 @@ body {
 
 .container {
     width: 1000px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 49px;
 }
 
@@ -64,7 +65,7 @@ body {
 }
 
 h1 {
-    font-family: "SF Pro Rounded", sans-serif;
+    font-family: "SF Pro Rounded", "Roboto", "Arial", sans-serif;
     font-size: 55px;
     line-height: 50px;
     font-weight: 900;
@@ -73,7 +74,7 @@ h1 {
 }
 
 h2 {
-    font-family: "SF Pro Rounded", sans-serif;
+    font-family: "SF Pro Rounded", "Roboto", "Arial", sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: 700;
@@ -82,29 +83,34 @@ h2 {
 }
 
 h3 {
-    font-family: "SF Pro Rounded", sans-serif;
+    font-family: "SF Pro Rounded","Roboto", "Arial", sans-serif;
     font-size: 25px;
     line-height: 20px;
     font-weight: 400;
     margin-top: 0;
 }
 
-.p {
+p {
     margin: 0px 0px 10px 0px;
     width: 670px;
 }
 
-.p--lead {
+.lead_p {
     font-size: 22px;
     line-height: 28px;
     margin: 0px 29px 16px 0px;
 }
 
-.p--last {
+.p:last-child {
+    margin: 0px;
+}
+
+.lead_p:last-child {
     margin: 0px;
 }
 
 .menu {
+    font-family: "SF Pro Rounded", "Roboto", "Arial", sans-serif;
     height: 45px;
     margin: 17px 0px 13px 0px;
     display: flex;
@@ -112,7 +118,7 @@ h3 {
     align-items: flex-end;
 }
 
-.menu_group {
+.menu_logo-and-menu_elements {
     display: flex;
 }
 
@@ -123,30 +129,19 @@ h3 {
 }
 
 .menu_elements {
-    font-family: "SF Pro Rounded", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 8px;
+    margin-top: 11px;
 }
 
 .menu_element {
-   margin: 0px 12px 0px 0px;
-}
-
-.menu_element--last {
-    margin: 0px;
-    font-family: "SF Pro Rounded", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.menu-element--inactive {
-    color: black;
+   margin-right: 16px;
 }
 
 .menu_element--active {
     color: #FF5B5B;
     border-bottom: 1px solid #FF5B5B;
+    font-weight: 500;
 }
 
 a {
@@ -169,7 +164,6 @@ a:hover {
 }
 
 .menu_price {
-    font-family: "SF Pro Rounded", sans-serif;
     font-size: 22px;
     font-weight: 700;
 }
@@ -178,29 +172,29 @@ a:hover {
     margin: 0px 2px 0px 0px;
 }
 
-.top-img {
-    width: 1000px;
-}
-
 .main-ill {
     margin: 0px 0px 56px 0px;
 }
 
-.header {
+.main-ill_img {
+    width: 1000px;
+}
+
+header {
     margin-bottom: 35px;
 }
 
-.text-block-1 {
+.text-section {
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
 }
 
-.lead {
+.lead_text {
     margin-right: 24px;
 }
 
-.text-block-1_img {
+.lead_img {
     width: 180px;
     margin-bottom: 10px;
 }
@@ -216,26 +210,25 @@ a:hover {
     flex-direction: column;
 }
 
-.text-block-2_img {
+.why-irritation-occurs_img {
     width: 268px;
 }
 
-.caption-2 {
+.why-irritation-occurs_caption {
     margin: -12px 0px 0px 49px;
 }
 
-.text-block-2 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 84px;
-}
-
-.text {
+.simple-text {
     margin: 0px 0px 0px 14px;
     width: 670px;
 }
 
+.simple-text--left-margin {
+    margin-left: 14px;
+}
+
 .footer {
+    margin-top: 14px;
     margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
@@ -247,27 +240,27 @@ ul {
     margin: 0px;
 }
 
-.ul-1 {
+.ul--contacts {
     margin: 19px 0px 0px 0px;
 }
 
 li {
     margin-bottom: 10px;
-    font-family: 'SF Pro Rounded', sans-serif;
+    font-family: 'SF Pro Rounded', "Roboto", "Arial", sans-serif;
     font-size: 18px;
     line-height: 20px;
     font-weight: 400;
 }
 
-.li--last {
+.li:last-child {
     margin-bottom: 0px;
 }
 
-.footer-menu {
+.footer_menu {
     display: flex;
     justify-content: space-between;
 }
 
-.ul-2 {
-    margin: 0px 40px 0px 0px;
+.ul--right-margin {
+    margin-right: 40px;
 }
