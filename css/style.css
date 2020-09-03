@@ -1,31 +1,31 @@
 
 @font-face {
     font-family: "SF Pro Rounded";
-    src: url("../fonts/SF-Pro-Rounded-Regular.ttf") format("opentype");
+    src: url("../fonts/SF-Pro-Rounded-Regular.otf") format("opentype");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "SF Pro Rounded";
-    src: url("../fonts/SF-Pro-Rounded-Medium.ttf") format("opentype");
+    src: url("../fonts/SF-Pro-Rounded-Medium.otf") format("opentype");
     font-weight: 500;
 }
 
 @font-face {
     font-family: "SF Pro Rounded";
-    src: url("../fonts/SF-Pro-Rounded-Bold.ttf") format("opentype");
+    src: url("../fonts/SF-Pro-Rounded-Bold.otf") format("opentype");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "SF Pro Rounded";
-    src: url("../fonts/SF-Pro-Rounded-Heavy.ttf") format("opentype");
+    src: url("../fonts/SF-Pro-Rounded-Heavy.otf") format("opentype");
     font-weight: 800;
 }
 
 @font-face {
     font-family: "SF Pro Rounded";
-    src: url("../fonts/SF-Pro-Rounded-Black.ttf") format("opentype");
+    src: url("../fonts/SF-Pro-Rounded-Black.otf") format("opentype");
     font-weight: 900;
 }
 
@@ -45,13 +45,22 @@ body {
     font-weight: 300;
     line-height: 23.2px;
     color: black;
+    background-color: white;
     margin: 0;
 }
 
 .container {
-    background-color: white;
     width: 1000px;
     margin: 0 auto;
+    padding: 0 49px;
+}
+
+.container--no-padding {
+    padding: 0
+}
+
+.container--only-right-padding {
+    padding: 0 49px 0 0;
 }
 
 h1 {
@@ -96,13 +105,15 @@ h3 {
 }
 
 .menu {
-    padding: 0px 49px 0px 49px;
-    width: 1000px;
     height: 45px;
     margin: 17px 0px 13px 0px;
     display: flex;
-    justify-content:flex-start;
+    justify-content: space-between;
     align-items: flex-end;
+}
+
+.menu_group {
+    display: flex;
 }
 
 .menu_logo {
@@ -115,7 +126,7 @@ h3 {
     font-family: "SF Pro Rounded", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    margin: 0px 118px 8px 0px;
+    margin-top: 8px;
 }
 
 .menu_element {
@@ -176,17 +187,17 @@ a:hover {
 }
 
 .header {
-    margin: 0px 0px 35px 49px;
+    margin-bottom: 35px;
 }
 
 .text-block-1 {
     display: flex;
     justify-content: space-between;
-    margin: 0px 49px 70px 49px;
+    margin-bottom: 70px;
 }
 
 .lead {
-    margin: 0px 24px 0px 0px;
+    margin-right: 24px;
 }
 
 .text-block-1_img {
@@ -216,7 +227,7 @@ a:hover {
 .text-block-2 {
     display: flex;
     justify-content: space-between;
-    margin: 0px 49px 84px 0px;
+    margin-bottom: 84px;
 }
 
 .text {
@@ -225,7 +236,7 @@ a:hover {
 }
 
 .footer {
-    margin: 0px 49px 60px 49px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
 }
